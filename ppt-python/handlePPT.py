@@ -2,11 +2,12 @@
 #
 # Author : Sang kyeong Kim ( kimsangkyeong@gmail.com )
 # Description : handle a general ppt file
-# Information : https://python-pptx.readthedocs.io/
-#               install win32com.client  : pip install python-pptx
-# Dependency  : 
+# Information : https://python-pptx.readthedocs.io/en/latest/
+#               pip install python-pptx
+# Dependency  : python-pptx - release v0.6.18
 #
 #############################################################################################################################
+
 from pptx import Presentation # pip install python-pptx
 
 def iter_merge_origins(table):
